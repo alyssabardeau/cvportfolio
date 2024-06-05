@@ -84,7 +84,7 @@ body {
   margin: 10px 15px;
   color: #000000;
   text-align: center;
-  border-radius: 35px;
+  border-radius: 1px;
   text-transform: uppercase;
   font-size: 15px;
 }
@@ -144,7 +144,7 @@ a:focus {
 }
 
 .custom_nav-container {
-  z-index: 99999;
+  z-index: 9;
 }
 
 .navbar-expand-lg .navbar-collapse {
@@ -213,7 +213,7 @@ a:focus {
   position: relative;
   z-index: 2;
   color: #3b3a3a;
-  padding-bottom: 90px;
+  padding: bottom 30px;
 }
 
 .slider_section .row {
@@ -237,11 +237,11 @@ a:focus {
 
 .slider_section .detail_box a {
   display: inline-block;
-  padding: 10px 40px;
+  padding: 5px 5px;
   background-color: #4b208c;
   color: #ffffff;
-  border-radius: 35px;
-  margin-top: 35px;
+  border-radius: 5px;
+  margin-top: 5px;
 }
 
 .slider_section .detail_box a:hover {
@@ -250,7 +250,7 @@ a:focus {
 
 .slider_section .img_container {
   border: 7px solid #7b57b2;
-  border-radius: 100%;
+  border-radius: 1%;
   overflow: hidden;
 }
 
@@ -404,18 +404,18 @@ a:focus {
 
 .about_section .img_container .img-box {
   border: 5px solid #7b57b2;
-  border-radius: 100%;
+  border-radius: 1%;
   overflow: hidden;
 }
 
 .about_section .img_container .img-box.b1 {
-  width: 70%;
+  width: 90%;
 }
 
 .about_section .img_container .img-box.b2 {
-  width: 50%;
+  width: 90%;
   margin-left: auto;
-  margin-top: -12%;
+  margin-top: -8%;
 }
 
 .about_section .img_container .img-box img {
